@@ -153,7 +153,7 @@ If you merely want to be notified if a task runs over but still let it run to co
 SLAs
 ----
 
-An SLA, or a Service Level Agreement, is an expectation for the maximum time a Task should take. If a task takes longer than this to run, then it visible in the "SLA Misses" part of the user interface, as well going out in an email of all tasks that missed their SLA.
+An SLA, or a Service Level Agreement, is an expectation for the maximum time a Task should take. If a task takes longer than this to run, then it is visible in the "SLA Misses" part of the user interface, as well going out in an email of all tasks that missed their SLA.
 
 Tasks over their SLA are not cancelled, though - they are allowed to run to completion. If you want to cancel a task after a certain runtime is reached, you want :ref:`concepts:timeouts` instead.
 
