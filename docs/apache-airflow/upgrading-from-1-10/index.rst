@@ -250,7 +250,7 @@ Now the user can use the ``kubernetes.client.models`` class as a single point of
     )
 
 
-We decided to keep the Secret class as users seem to really like that simplifies the complexity of mounting
+We decided to keep the Secret class as users seem to really like that it simplifies the complexity of mounting
 Kubernetes secrets into workers.
 
 For a more detailed list of changes to the KubernetesPodOperator API, please read the section in the Appendix titled "Changed Parameters for the KubernetesPodOperator"
